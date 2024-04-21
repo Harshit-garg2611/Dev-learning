@@ -29,3 +29,6 @@
 //     }
 //     inner();
 // }
+let array = [3,5,7,7,1];
+array.push("5");
+array.unshift(5);
