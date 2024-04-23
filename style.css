@@ -1,29 +1,46 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.bg{
-    background-image: url("images/Background.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-attachment: scroll;
-    object-fit: contain;
+body{
+    background-color: black;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
-.bg nav{
+
+.bg {
+    background-image: url("images/Background.jpg");
+    height: 644px;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    background-position: center ;
+    background-attachment: scroll;
+    /* overflow-x: hidden; */
+    /* object-fit: contain; */
+}
+.bg .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.60;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+}
+
+.bg nav {
     display: flex;
     max-width: 80vw;
     margin: auto;
     justify-content: space-between;
 }
-.bg nav .logo{
+
+.bg nav .logo {
     position: relative;
     z-index: 10;
     width: 145px;
     top: 20px;
 }
-.bg nav .button{
+
+.bg nav .button {
     position: relative;
     z-index: 10;
     top: 20px;
@@ -32,39 +49,86 @@
     padding: 20px;
 }
 
-.bg .box{
-    height: 100vh;
-    width: 100%;
-    opacity: 0.48;
-    background-color: black;
-    position: absolute;
-    top: 0%;
-}
-.write{
+
+.write {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 12px;
+    padding: 0px 30px;
 }
-.text{
+
+.text {
     color: white;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-style: normal;
     position: relative;
-    top: 28vh;
+    top: 18vh;
 }
-.text:first-child{
-     font-weight: 900;
-     font-size:40px;
+
+.text:nth-child(1) {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
 }
-.text:nth-child(2n){
+
+.text:nth-child(2) {
     font-weight: 400;
-     font-size:24px;
-     line-height: 48px;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
 }
-.text:nth-child(3n){
+
+.text:nth-child(3) {
     font-weight: 400;
-     font-size:20px;
-     line-height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.sign {
+    display: flex;
+    position: relative;
+    top: 18vh;
+    gap: 5px;
+}
+.email-btn{
+    padding: 12px 86px 12px 18px;
+    background-color: rgba(22, 22, 22, 0.701);
+    border: 0.5px solid white;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.get-btn{
+    padding: 12px 86px 12px 18px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lang-btn{
+    padding: 2px 9px;
+    background-color: rgba(22, 22, 22, 0.701);
+    border: 0.5px solid white;
+    color: white;
+    font-size:medium;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.sign-btn{
+    padding: 10px 15px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.separation{
+    height: 10px;
+    background-color: rgb(34, 33, 33)
 }
