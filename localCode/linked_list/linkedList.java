@@ -124,28 +124,54 @@ public class linkedList {
         size--;
     }
 
+
+    // iterative search 
+    public static int iterative(int key){
+        // if(head==null){
+        //     return -1;
+        // }
+        Node temp = head;
+        int i=0;
+        while(temp!=null){
+            if(temp.data==key){
+                return i;
+            }
+            temp=temp.next;
+            i++;
+        }
+        return -1;
+    }
+
+
+
+    // recursive search 
+    public static int recursiveSearch(int key){
+        return recursive(head, key);
+    }
+    public static int recursive(Node head, int key){
+        if(head==null){
+            return -1;
+        }
+        if(head.data==key){
+            return 0;
+        }
+        int index = recursive(head.next, key);
+        if(index==-1){
+            return -1;
+        }
+        return index+1;
+    }
+
     public static void main(String[] args) {
         // object of class linkedList
-        // linkedList ll = new linkedList();
-        // removeLast();
-        // print();
-        // ll.addFirst(4);
-        // print();
-        // removeLast();
-        // print();
-        // ll.addFirst(3);
-        // ll.addFirst(1);
-        // removeLast();
-        // print();
-        // System.out.println(size);
-        // ll.addLast(6);
-        // ll.addLast(8);
-        // print();
-        // System.out.println(size);
-        // ll.addMid(2, 1);
-        // ll.removeLast();
-        // // ll.addMid(7, 5);
-        // print();
-        // System.out.println(size);
+        linkedList ll = new linkedList();
+        ll.addFirst(5);
+        ll.addFirst(2);
+        ll.addLast(7);
+        ll.addMid(4, 1);
+        ll.addLast(8);
+        print();
+        System.out.println(recursiveSearch(5));
+        System.out.println(recursiveSearch(3));
     }
 }
