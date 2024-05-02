@@ -29,6 +29,21 @@
 //     }
 //     inner();
 // }
-let array = [3,5,7,7,1];
-array.push("5");
-array.unshift(5);
+// let array = [3,5,7,7,1];
+// array.push("5");
+// array.unshift(5);
+function createUser(firstName,lastName,email,age) {
+    const user = {};
+    user.firstName = firstName;
+    user.lastName = lastName;
+    user.email = email;
+    user.age = age;
+    user.about= function(){
+        return `${this.firstName}, ${this.lastName} is ${this.age}`
+    }
+    return user;
+};
+const user1 = createUser("Harshit","Garg","hgaygs",21);
+console.log(user1);
+console.log(user1.about());
+
