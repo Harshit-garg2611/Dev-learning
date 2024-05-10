@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe Game</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navBar">
+        <img src="assets/tic tac toe.png" alt="logo" id="logo">
+        <h1>Tic Tac Toe Game</h1>
+    </nav>
+
+
+    <!-- main body  -->
+    <div class="container">
+            <div class="left grid-container">
+                <button class="grid-item"></button>
+                <button class="grid-item"></button>
+                <button class="grid-item"></button>
+                <button class="grid-item"></button>
+                <button class="grid-item"></button>
+                <button class="grid-item"></button>
+                <button class="grid-item"></button>
+                <button class="grid-item"></button>
+                <button class="grid-item"></button>
+              </div>
+        
+        <div class="right info-box">
+           <h2>Welcome to my TIC TAC TOE game ! </h2>
+           <p class="info">Press to start the game</p>
+           <button id="start-btn">Start Game</button>
+           <div class="msg">
+               <p>Player 1 : O &nbsp;&nbsp; Player 2 : X</p>
+               <p class="result"></p>
+            </div>
+            <img src="assets/excited.gif" alt="win gif" class="hide">
+          
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

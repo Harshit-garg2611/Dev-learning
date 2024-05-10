@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #282A3A;
+}
+nav.navBar{
+    width: 100%;
+    background-color: #000;
+    color: #F6B17A;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    gap: 20px;
+}
+.navBar img{
+    height: 2vw;
+    margin-left: 10px;
+    padding: 2px;
+}
+.navBar h1{
+    padding: 2px;
+}
+
+.container{
+    width: 100%;
+    height: calc(100% - 70px) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.right, .left{
+    height: 450px;
+    width: 450px;
+    /* border: 2px solid white; */
+    margin: 30px;
+}
+
+.grid-container{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.grid-item{
+    background-color: #212121;
+    border: 2px solid #C69749;
+    font-size: 4vw;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item:hover{
+    background-color: #3a3838;
+}
+
+
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.info-box h2{
+    /* color: #F6B17A; */
+    color: #F39F5A;
+}
+
+.info-box button{
+    background-color: #F6B17A;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px rgb(61, 61, 61) ;
+}
+
+div.msg>p{
+    margin: 10px;
+    text-align: center;
+}
+.hide{
+    display: none
+}
