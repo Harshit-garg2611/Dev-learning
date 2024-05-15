@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'VT323', monospace;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body,
@@ -19,7 +23,8 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-nav .title{
+
+nav .title {
     color: white;
     display: flex;
     justify-content: center;
@@ -27,25 +32,19 @@ nav .title{
     gap: 30px;
     padding: 15px;
 }
-.title img{
+
+.title img {
     height: 60px;
     background-color: aliceblue;
 }
 
-.scores{
+.scores {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 40px;
     gap: 30px;
 }
-
-#highScore {
-    display: none;
-}
-
-
-
 
 #game-board {
     height: 70vh;
@@ -66,13 +65,19 @@ nav .title{
 }
 
 
-
+.head{
+    background-color: purple;
+    border: 0.05px solid white;
+    border-radius: 30%;
+}
 .snake {
-    border: #e39741 1px dotted;
-    background-color: #D89C60;
+    background-color: #ef0773;
+    border: 0.05px solid white;
+    border-radius: 30%;
 }
 
 .food {
-    background-color: #EC8FD0;
-    border: #D43790 5px solid;
+    background-color: #987395;
+    border-radius: 50%;
+    border: 1px solid #000000;
 }
