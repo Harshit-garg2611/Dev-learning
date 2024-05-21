@@ -17,10 +17,12 @@ function move() {
     let posY = position[1].Y++;
     box.style.top  = posY +'%';
     box.style.left = posX +'%';
-    if(posX>'90%' || posY>'90%'){
+    if(posX>'90%' && posY>'90%'){
         cancelAnimationFrame(move);
+        return;
     }
     window.requestAnimationFrame(move);
 }
 
 // window.requestAnimationFrame(move);
+ 
