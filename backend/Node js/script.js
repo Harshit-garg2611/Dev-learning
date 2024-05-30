@@ -3,14 +3,13 @@
 //     console.log("Hello ", i);
 // }
 
-// let args = process.argv;
-// for(let i=0;i<args.length;i++){
-//     console.log(args[i]);
-// }
+let args = process.argv;
+for(let i=0;i<args.length;i++){
+    console.log("hello ", args[i]);
+}
 
 // const someVal = require('./math');
 // console.log(someVal.sum(3,4));
-
 
 // const info = require('./fruits');
 
@@ -31,5 +30,5 @@
 // console.log("sum : ", sum(2,4));
 // console.log("sub : ", sub(2,4));
 
-import { generate, count } from "random-words";
-console.log(generate({ min: 3, max: 10 }));
+// import { generate, count } from "random-words";
+// console.log(generate({ min: 3, max: 10 }));

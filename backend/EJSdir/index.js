@@ -17,8 +17,9 @@ app.get("/", (req,res)=>{
 
 app.get("/rolldice", (req, res)=>{
     let diceVal = Math.floor(Math.random() * 6 )+1 ; 
-    res.render("rollDice", {num:diceVal})
+    res.render("rollDice", {diceVal})
 })
+
 app.listen(port, ()=>{
     console.log(`listening.. on ${port}`);
 })
