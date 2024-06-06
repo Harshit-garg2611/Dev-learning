@@ -9,6 +9,6 @@ This repository contains solutions to various data structure and algorithm probl
 
 ## Overview
 
-In this repository, I have documented my journey of learning and practicing data structures and algorithms. My main goal is to improve my problem-solving skills and gain a deeper understanding of fundamental algorithms and data structures.
+In this repository, I have documented my journey of learning and practicing data structures and algorithms. My Main goal is to improve my problem-solving skills and gain a deeper understanding of fundamental algorithms and data structures.
 
 
