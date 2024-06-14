@@ -1,0 +1,16 @@
+#container{
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+img{
+    width: 250px;
+}
+
+
+*{
+    background: #141918b1;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
