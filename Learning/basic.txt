@@ -1,0 +1,16 @@
+## DATA TYPE : 
+
+-> Attribute associated with piece of data that tells computer how to interpret it's value. 
+
+- PRIMITIVE DATA TYPES : 8
+* byte : 1 byte 
+* short : 2 byte 
+* int : 4 byte 
+* float : 4 byte 
+* long : 8 byte 
+* double : 8 byte 
+* char : 2 byte 
+* boolean : 1 byte 
+
+-Non Primitive DATA TYPES : 
+Arrays , Strings , class , object, interface 
