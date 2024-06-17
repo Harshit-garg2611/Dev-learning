@@ -1,4 +1,4 @@
-package Learning.sorting;
+package Learning.A_sorting;
 
 import java.util.*;
 public class inbuilt {

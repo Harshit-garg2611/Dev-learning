@@ -1,4 +1,4 @@
-package Learning.arrays;
+package Learning.A_arrays;
 
 public class Arrays {
     // Linear data structure 

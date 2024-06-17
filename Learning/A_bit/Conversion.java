@@ -1,4 +1,4 @@
-package Learning.bit;
+package Learning.A_bit;
 
 public class Conversion {
     public static int binTodec(int n) {

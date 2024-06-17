@@ -1,4 +1,4 @@
-package Learning.graphs;
+package Learning.E_graphs;
 
 import java.util.*;
 

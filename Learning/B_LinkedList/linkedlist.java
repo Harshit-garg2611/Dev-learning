@@ -1,4 +1,4 @@
-package Learning.LinkedList;
+package Learning.B_LinkedList;
 
 public class linkedlist {
     class Node{
