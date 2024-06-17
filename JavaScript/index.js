@@ -24,32 +24,39 @@
 
 // xyz();
 
-const user = [
-    {firstName:"Harhsit", lastName:"Garg", age:21},
-    {firstName:"Mohit", lastName:"Garg", age:19},
-    {firstName:"Ankit", lastName:"Kumar", age:21},
-    {firstName:"Udit", lastName:"Narayan", age:18},
+// const user = [
+//     {firstName:"Harhsit", lastName:"Garg", age:21},
+//     {firstName:"Mohit", lastName:"Garg", age:19},
+//     {firstName:"Ankit", lastName:"Kumar", age:21},
+//     {firstName:"Udit", lastName:"Narayan", age:18},
 
-]
+// ]
    
-const output = user.reduce(function (acc, curr){
-    if(acc[curr.age]){
-        acc[curr.age]++;
-    }else{
-        acc[curr.age] = 1;
-    }
-    return acc
-}, {})
+// const output = user.reduce(function (acc, curr){
+//     if(acc[curr.age]){
+//         acc[curr.age]++;
+//     }else{
+//         acc[curr.age] = 1;
+//     }
+//     return acc
+// }, {})
 
 
 // console.log(output);
 
 // const age = user.filter((x) => x.age<20).map((a)=>a.firstName)
-const age = user.reduce((acc, curr)=>{
-    if(curr.age<20){
-        acc.push(curr.firstName);
-    }
-    return acc;
-}, [])
+// const age = user.reduce((acc, curr)=>{
+//     if(curr.age<20){
+//         acc.push(curr.firstName);
+//     }
+//     return acc;
+// }, [])
 
-console.log(age)
+// console.log(age)
+
+// function add(...nums){
+//     console.log(typeof nums);
+//     return nums;
+// }
+
+// promises ......................................
