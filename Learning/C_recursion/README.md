@@ -25,3 +25,6 @@
 
  6. Understanding and Readability: 
  If your team or collaborators are more comfortable with iterative constructs and could find recursive solutions confusing, it may be best  to stick with loops.
+
+ ## Algorithm: Steps
+ > Hello
