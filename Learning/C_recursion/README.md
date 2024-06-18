@@ -36,3 +36,9 @@
 
 ## Tail Recursion :
 - A recursive function call in which the recursive call is the last statment executed by the function .
+
+## First Occurence :
+ Compare with self than look forward 
+
+## Last Occurenece :
+Look forward & compare with self 
