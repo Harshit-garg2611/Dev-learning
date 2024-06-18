@@ -27,12 +27,12 @@
  If your team or collaborators are more comfortable with iterative constructs and could find recursive solutions confusing, it may be best  to stick with loops.
 
 ## Problems :
- > Space Complexity can't be constant Stack occupy space 
+ - Space Complexity can't be constant Stack occupy space 
 
 ## Stack Overflow :
- > Parameter occupy very much space 
- > too many calls
- > not define base case (where to stop) 
+ - Parameter occupy very much space 
+ - too many calls
+ - not define base case (where to stop) 
 
 ## Tail Recursion :
 - A recursive function call in which the recursive call is the last statment executed by the function .
