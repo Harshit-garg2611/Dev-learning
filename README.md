@@ -7,11 +7,7 @@ Welcome to my Learning Development Journey repository! This repository serves as
 1. [Introduction](#introduction)
 2. [Current Focus](#current-focus)
 3. [Technologies and Topics](#technologies-and-topics)
-4. [Projects](#projects)
-5. [Notes and Tutorials](#notes-and-tutorials)
-6. [Future Plans](#future-plans)
-7. [Contributing](#contributing)
-8. [License](#license)
+4. [Additional Technolgies](#additional-technologies)
 
 ## Introduction
 
