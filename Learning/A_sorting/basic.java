@@ -2,7 +2,7 @@ package Learning.A_sorting;
 
 import java.util.*;
 
-public class Main {
+public class basic {
     public static void bubble(int[] array){
         for(int i=0;i<array.length-1;i++){
             boolean swap = false;

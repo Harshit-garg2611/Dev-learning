@@ -4,6 +4,7 @@
 13. tag : array + hash 
 14. string compression 
 15. string 
+Permtations , N queen all ways , Grid ways , sudoku solver .
 .......................................................................................................
 1. Majority element
 .........................................

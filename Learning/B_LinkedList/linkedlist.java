@@ -1,6 +1,6 @@
 package Learning.B_LinkedList;
 
-public class LinkedList {
+public class linkedlist {
     /*
      * 
        Linear data structure where elelments are not stored in contiguous memory
@@ -120,28 +120,28 @@ public class LinkedList {
         size--;
     }
     public static void main(String[] args) {
-        LinkedList.print();
-        LinkedList.addMid(0, 0);
-        LinkedList.print();
+        linkedlist.print();
+        linkedlist.addMid(0, 0);
+        linkedlist.print();
         System.out.println(size);
-        LinkedList.addLast(5);
-        LinkedList.addFirst(3);
-        LinkedList.addFirst(1);
-        LinkedList.addMid(-2, 3);
-        LinkedList.addFirst(-2);
-        LinkedList.print();
+        linkedlist.addLast(5);
+        linkedlist.addFirst(3);
+        linkedlist.addFirst(1);
+        linkedlist.addMid(-2, 3);
+        linkedlist.addFirst(-2);
+        linkedlist.print();
         System.out.println(size);
-        LinkedList.addLast(7);
-        LinkedList.print();
+        linkedlist.addLast(7);
+        linkedlist.print();
         System.out.println(size);
-        LinkedList.addMid(8,3);
-        LinkedList.print();
+        linkedlist.addMid(8,3);
+        linkedlist.print();
         System.out.println(size);
-        LinkedList.removeFirst();
-        LinkedList.print();
+        linkedlist.removeFirst();
+        linkedlist.print();
         System.out.println(size);
-        LinkedList.removeLast();
-        LinkedList.print();
+        linkedlist.removeLast();
+        linkedlist.print();
         System.out.println(size);
     }
 
