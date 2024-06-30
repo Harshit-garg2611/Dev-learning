@@ -5,20 +5,11 @@ Welcome to my Learning Development Journey repository! This repository serves as
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Current Focus](#current-focus)
-3. [Technologies and Topics](#technologies-and-topics)
-4. [Additional Technolgies](#additional-technologies)
+2. [Technologies and Topics](#technologies-and-topics)
 
 ## Introduction
 
 This repository is a living document of my journey in software development. By maintaining a central repository, I can easily track my progress,
-## Current Focus
-
-I am currently focusing on learning and mastering the MERN stack:
-- **MongoDB**: NoSQL database
-- **Express.js**: Web application framework for Node.js
-- **React**: Front-end JavaScript library
-- **Node.js**: JavaScript runtime for server-side programming
 
 ## Technologies and Topics
 
