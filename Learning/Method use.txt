@@ -1,0 +1,37 @@
+ Non-static method:
+
+B.java
+
+class B {
+   public void myMethod() {
+     // do stuff
+   }
+}
+A.java
+
+class A {
+    public void anotherMethod()
+    {
+         B b=new B();
+         b.myMethod();        // calling B class's method
+    }
+}
+
+..........................................................................................
+• STATIC method:
+
+B.java
+
+class B {
+   public static void myMethod() {
+     // do stuff
+   }
+}
+A.java
+
+class A {
+    public void anotherMethod()
+    {
+         B.myMethod();        // calling B class's method
+    }
+}

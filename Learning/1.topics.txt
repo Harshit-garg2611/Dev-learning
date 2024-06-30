@@ -1,0 +1,11 @@
+1. binary search
+4. kaden algo
+5. sorting : bubble, selection, insertion, inbuilt, count, merge, quick
+13. tag : array + hash 
+14. string compression 
+15. string 
+Permtations , N queen all ways , Grid ways , sudoku solver .
+.......................................................................................................
+1. Majority element
+.........................................
+linked list 
