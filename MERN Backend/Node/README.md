@@ -15,7 +15,7 @@ node -v
 
 ### **Global :**
 
-- `module` is an object referring to the functionality that will be exported from a file. In Node, each file is treated as a module.
+- `module`  A module is a reusable piece of code that encapsulates related functionality. Modules allow you to organize your code into separate files, making it easier to manage and maintain large JavaScript applications. They help in keeping code clean, avoiding naming collisions, and promoting reusability.In Node, each file is treated as a module.
 - `require()` is a function used to import modules from other files or Node packages.
 - `process` is an object referencing the actual computer [process](https://en.wikipedia.org/wiki/Process_(computing)) running a Node program and allows for access to command-line arguments and much more.
 
@@ -40,3 +40,4 @@ in first 2 index of that array there is a location :
 2. path directory in which file is present 
 
 ### [ Import & Export in js ](./import&export) 
+### [ Node Package Manager ](./npm)
