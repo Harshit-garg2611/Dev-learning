@@ -47,10 +47,6 @@ mern-backend-learning/
 
 ### [Module 1: Introduction to Node.js](./Node)  
 
-- JavaScript runtime environment .
-- Built on the Google V8 JavaScript engine and is open-source. 
-- written in JavaScript, C++, Python, C 
--  used for server side programming .
 
 ## Contributing: 
 
