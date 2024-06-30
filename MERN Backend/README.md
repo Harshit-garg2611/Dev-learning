@@ -47,6 +47,8 @@ mern-backend-learning/
 
 ### [Module 1: Introduction to Node.js](./Node)  
 
+### [Module 2: Express.js Basics](./Express)
+
 
 ## Contributing: 
 
