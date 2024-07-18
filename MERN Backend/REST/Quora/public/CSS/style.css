@@ -1,0 +1,31 @@
+
+h1{
+    color: rgb(46, 144, 111);
+    background-color: rgba(18, 17, 17, 0.813);
+}
+.post{
+    border: 2px solid black;
+    background-color: rgb(136, 90, 53);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.individualPost{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(206, 175, 175);
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.postPage{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}

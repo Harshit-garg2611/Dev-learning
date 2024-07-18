@@ -1,0 +1,13 @@
+<%- include("includes/head.ejs") %>
+
+<form action="/posts" method="post">
+    <label for="userName">User Name: </label>
+    <input type="text" id="userName" name="userName">
+    <label for="Age">Age: </label>
+    <input type="number" id="Age" name="age">
+    <label for="Gender">Gender: </label>
+    <input type="text" id="Gender" name="gender"> <br><br>
+    <textarea name="thought" id="thought" cols="18" rows="4">Enter Thought.. </textarea>
+    <button type="submit">Submit</button>
+
+</form>

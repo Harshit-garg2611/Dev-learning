@@ -1,0 +1,17 @@
+{
+  "name": "quora",
+  "version": "1.0.0",
+  "description": "In this repo I built a Simple Quora page that has following features :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Harshit-garg2611",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "uuid": "^10.0.0"
+  }
+}

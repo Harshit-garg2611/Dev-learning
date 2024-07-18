@@ -11,6 +11,7 @@ Welcome to my MERN Backend Learning repository! This repo is dedicated to my jou
   - [Module 1: Introduction to Node.js](#module-1-introduction-to-nodejs)
   - [Module 2: Express.js Basics](#module-2-expressjs-basics)
   - [Module 3: EJS](#module-3-ejs)
+  - [Module 4: REST](#module-4-rest)
   - [Module 4: MongoDB Integration](#module-3-mongodb-integration)
   - [Module 5: Building RESTful APIs](#module-4-building-restful-apis)
   - [Module 6: Authentication and Authorization](#module-5-authentication-and-authorization)
@@ -36,7 +37,8 @@ This repository documents my learning process as I delve into the backend develo
 mern-backend-learning/
 ├── Module1-IntroductionToNodeJS/
 ├── Module2-ExpressJSBasics/
-├── Module3-MongoDBIntegration/
+├── Module3-EJS/
+├── Module4-REST/
 ├── Module4-BuildingRESTfulAPIs/
 ├── Module5-AuthenticationAndAuthorization/
 ├── Module6-Deployment/
@@ -48,6 +50,10 @@ mern-backend-learning/
 ### [Module 1: Introduction to Node.js](./Node)  
 
 ### [Module 2: Express.js Basics](./Express)
+
+### [Module 3: EJS](./EJS)
+
+### [Module 4: REST](./REST)
 
 
 ## Contributing: 
