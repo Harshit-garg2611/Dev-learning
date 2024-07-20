@@ -19,6 +19,7 @@ The API used rules of REST
 | --- | --- |
 | Used to get some response  | used to post something (for create , write , update ) |
 | Data sent in query strings (limited string data & visible in URL ) | Data send via request body (any type of data ) |
+| To get from backend/database | to edit/alter the database |
 
 ```javascript
 const express = require("express");
@@ -64,4 +65,4 @@ app.post("/register", (req, res)=>{
 4. PATCH : update existing data partially 
 5. DELETE : removes data .
 
->We build a simple [quora page](./Quora%20page) for these CRUD operations .  
+>We build a simple [quora page](./Quora/README.md) for these CRUD operations .  

@@ -39,7 +39,7 @@ I create an array posts for now, but all the post comes from backend
  - Done in 2 steps 
  1. Get response in form 
  2. post response 
-
+[![](https://mermaid.ink/img/pako:eNpNjz0LgzAQhv_KcbMK7ehQUEMnoQWli3EI5vwAYyQmSBH_e6Pt0O25533h7jZstCSMsTNi7qFkfAKApHoNtEKS5_B8FGUNYXiDtMoMCUsw0VoftfTUWXWJ4K6N-nOsukYw68WeLvu6A9mJCQaoyCgxSL95OwKOtidFHGOPklrhRsuRT7uvCmd18Z4ajK1xFKDRrusxbsW4-MnN0h_FBuE_UD-7fwBnH0Gf?type=png)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNpNjz0LgzAQhv_KcbMK7ehQUEMnoQWli3EI5vwAYyQmSBH_e6Pt0O25533h7jZstCSMsTNi7qFkfAKApHoNtEKS5_B8FGUNYXiDtMoMCUsw0VoftfTUWXWJ4K6N-nOsukYw68WeLvu6A9mJCQaoyCgxSL95OwKOtidFHGOPklrhRsuRT7uvCmd18Z4ajK1xFKDRrusxbsW4-MnN0h_FBuE_UD-7fwBnH0Gf)
 ## Step 4 : API to get a complete post page 
 First we have to assign id to all post for that we use uuid package .
 - Make a API with variable params /posts/:id . 
