@@ -65,4 +65,4 @@ app.post("/register", (req, res)=>{
 4. PATCH : update existing data partially 
 5. DELETE : removes data .
 
->We build a simple [quora page](./Quora/README.md) for these CRUD operations .  
+>We build a simple [quora page](./Quora) for these CRUD operations .  
