@@ -1,6 +1,14 @@
 <%- include("includes/head.ejs") %>
-<form action="" method="post">
-    
+<h3>Edit Your Post</h3>
+<h5>Post id : <%=post.id%></h5>
+<h5>Post Username : <%=post.userName%></h5>
+<h5>Age : <%=post.age%></h5>
+<h5>Gender : <%=post.gender%></h5>
+
+
+<form action="/posts/<%=post.id%>?_method=PATCH" method="post">
+    <textarea name="thought" cols="18" rows="4"><%= post.thought %></textarea><br><br>
+    <button type="submit">Submit</button>
 </form>
     
 </body>

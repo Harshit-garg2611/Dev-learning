@@ -48,6 +48,10 @@ First we have to assign id to all post for that we use uuid package .
 
 ## Step 5 : PATCH : API to update a specific post 
 we can also use PUT request here 
-- first create edit page same as that of add new post page 
 
->In HTML we can only send get or post request , override it by npm package 
+It is similar 2 steps process to that of edit a post 
+- firsly , through get request serve a form that can edit your responses.
+- second send patch request to the route. But , 
+>In HTML we can only send get or post request , So we do override it by npm package method-override
+
+## Step 6 : Delete a post

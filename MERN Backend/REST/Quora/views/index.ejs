@@ -11,6 +11,10 @@
             <!-- <a href="http://localhost:8080/posts/">See post</a> -->
             <button onclick="window.location.href='http://localhost:8080/posts/<%=post.id%>';">See Post</button>
             <button onclick="window.location.href='http://localhost:8080/posts/<%=post.id%>/edit';">Edit Post</button>
+
+            <form method="POST" action="/posts/<%=post.id%>?_method=DELETE">
+                <button type="submit">Delete post</button>
+            </form>
         </div>
         <% } %>
     </div>
