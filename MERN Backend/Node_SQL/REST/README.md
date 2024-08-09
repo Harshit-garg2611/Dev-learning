@@ -1,0 +1,1 @@
+- SETTING UP express, uuid, faker, mysql2 packages 

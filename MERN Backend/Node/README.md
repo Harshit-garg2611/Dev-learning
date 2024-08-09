@@ -26,7 +26,7 @@ Node has many built-in modules to aid in interactions with the command line, the
 - [HTTP](https://nodejs.org/dist/latest/docs/api/http.html) and [HTTPS](https://nodejs.org/dist/latest/docs/api/https.html) for creating web servers.
 - [File System](https://nodejs.org/dist/latest/docs/api/fs.html), [OS](https://nodejs.org/dist/latest/docs/api/os.html), and [Path](https://nodejs.org/dist/latest/docs/api/path.html) for interacting with the file system, operating system, and file/directory paths.
 
-## Process in Node :
+## [Process in Node](index.js) :
 
 The Object provide information about , and control over , the current Node.js process .
 
@@ -35,9 +35,6 @@ process.argv
 
 returns an array containing the command - line arguments passed when the Node.js process was launched
 ``` 
-in first 2 index of that array there is a location : 
-1. where executable path of our code
-2. path directory in which file is present 
 
 ### [ Import & Export in js ](./import&export) 
 ### [ Node Package Manager ](./npm)
