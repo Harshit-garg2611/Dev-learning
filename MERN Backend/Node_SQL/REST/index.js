@@ -2,17 +2,17 @@ const express  = require("express");
 const app = express();
 const port = 8080;
 const mysql = require('mysql2');
+const { faker } = require('@faker-js/faker');
 
 // Create the connection to database
 const connection = mysql.createConnection({
     host: 'localhost',
-    userName: 'root',
+    user: 'root',
     database: 'rest',
     password:"Dev@1234"
   });
 
 //  create fake data
-const { faker } = require('@faker-js/faker');
 let createRandomUser = ()=> {
     return [
        faker.string.uuid(),
@@ -25,10 +25,10 @@ let createRandomUser = ()=> {
 
 
   let data = [];
-  for(let i=0;i<=100;i++){
+  for(let i=1;i<=100;i++){
     data.push(createRandomUser());
   }
-  let q = "INSERT INTO user (id, userName, email, password) VALUES ? ";
+  let q = "INSERT INTO user (id, name, email, password) VALUES ? ";
 try{
     connection.query(q, [data] , (err, results, fields) => {
         if(err) throw err;

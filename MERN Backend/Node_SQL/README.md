@@ -29,7 +29,7 @@ To connect mysql to backend we use [this](https://www.npmjs.com/package/mysql2) 
 - run : source path/schema.sql 
 
 ## Insert in USER Table : 
-- by using placeholders 
+- by using placeholders ? 
 - we write query separately and to pass values in that query we make array that passes through .connection method 
 
 > To insert multiple user 
