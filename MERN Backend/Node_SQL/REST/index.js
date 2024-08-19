@@ -33,10 +33,10 @@ let createRandomUser = ()=> {
 
 
 
-//   let data = [];
-//   for(let i=1;i<=100;i++){
-//     data.push(createRandomUser());
-//   }
+  // let data = [];
+  // for(let i=1;i<=100;i++){
+  //   data.push(createRandomUser());
+  // }
 //   let q = "INSERT INTO user (id, name, email, password) VALUES ? ";
 // try{
 //     connection.query(q, [data] , (err, results, fields) => {
@@ -55,7 +55,7 @@ let createRandomUser = ()=> {
 
 // home route 
 app.get("/", (req,res)=>{
-  let q = "SELECT count(*) From user";
+  let q = `SELECT count(*) From user`;
   try{
       connection.query(q,  (err, results, fields) => {
           if(err) throw err;
@@ -73,17 +73,34 @@ app.get("/", (req,res)=>{
 
 // show route 
 app.get("/user", (req,res)=>{
-  let q = "SELECT * FROM user ";
+  let q = `SELECT * FROM user`;
   try{
       connection.query(q,  (err, results, fields) => {
           if(err) throw err;
-          // console.log(results); // results contains rows returned by server
-          res.render("show", results)
+          // console.log(results); // results contains rows returned by server 
+          res.render("show", { results })
         }
       );
   }catch(err){
       console.log(err);
   }
+})
+
+// edit route 
+app.get("/user/:id/edit", (req,res)=>{
+  let { id } = req.params;
+  let q = `SELECT * FROM user WHERE id='${id}'`;
+  try{
+        connection.query(q, (err, results, fields) => {
+            if(err) throw err;
+            // console.log(results); // results contains rows returned by server
+            let user = results[0];
+            res.render("edit", {user})
+          }
+        );
+    }catch(err){
+        console.log(err);
+    }
 })
 
 

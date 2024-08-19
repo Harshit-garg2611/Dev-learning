@@ -8,6 +8,26 @@
 </head>
 <body>
     <h1>Our all users </h1>
+    <table border="2px solid black">
+        <tr>
+            <td>S.NO.</td>
+            <td>User ID </td>
+            <td>User Name  </td>
+            <td>User email </td>
+            <td>click To edit </td>
+        </tr>
+    <% for(let i = 0 ; i<results.length;i++) { %>
+        <tr>
+            <td><%= i+1 %></td>
+            <td><%= results[i].id %></td>
+            <td><%= results[i].name %></td>
+            <td><%= results[i].email %></td>
+            <td><form action="user/<%= results[i].id %>/edit" method="get">
+                <button>edit username</button>
+            </form></td>
+        </tr>
+  <%  }  %>
+</table>
 
 </body>
 </html>

@@ -2,10 +2,11 @@
 
 # Routing : 
 
-| GET  | /  | fetch and show total number of users in our app | index |  retrieve resources |
+| Route  | /  | work | type |  what is doing|
 | --- | --- | --- | --- | --- |
-| GET | /posts/:id | to get one post using id | view | retrieve  |
-| POST | /posts | to add a new post | create | submits new data to servers  |
-| PUT / PATCH | /posts/:id | to update specific post  | update | update existing data / partially  |
-| DELETE | /posts/:id | to delete specific post | destroy  | removes data . |
+| GET | / |to fetch and show total no. of user in our app | view | retrieve  |
+| GET | /user | fetch and show userId, name, email of all users | view | retrieve  |
+| GET | /user/:id/edit | 2 steps : TO get form to edit a post this require password  | edit | edit route  |
+| PATCH | /user/:id/ | 2 steps : edit username if correct password entered  | edit | update route  |
+
 ---
