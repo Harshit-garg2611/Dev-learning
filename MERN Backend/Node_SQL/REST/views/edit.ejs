@@ -6,7 +6,9 @@
     <title>Edit form</title>
 </head>
 <body>
-    <h1>edit here</h1>
-    <form action=""></form>
+    <h3>Selected User : <%= user.email %></h3>
+    <form action="/user/<%= user.id%>/edit?_method=PATCH" method="post">
+        
+    </form>
 </body>
 </html>

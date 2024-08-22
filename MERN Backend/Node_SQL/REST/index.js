@@ -4,10 +4,14 @@ const port = 8080;
 const mysql = require('mysql2');
 const { faker } = require('@faker-js/faker');
 const path = require("path");
+const methodOverride = require('method-override');
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
+
+// override with POST having ?_method=DELETE
+app.use(methodOverride('_method'))
 
 // to serve static files 
 app.use(express.static(path.join(__dirname, "public/CSS")))
@@ -103,6 +107,10 @@ app.get("/user/:id/edit", (req,res)=>{
     }
 })
 
+// Patch request
+app.patch("/user/:id/edit", (req,res)=>{
+  res.redirect("/user");
+})
 
 app.listen(port,()=>{
     console.log("app is listening...");
