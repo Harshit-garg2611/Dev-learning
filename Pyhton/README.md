@@ -52,3 +52,12 @@ elif condition :
 else : 
       statement
       statement
+## Range in python
+- range(5) # 0,1,2,3,4
+- returns list of numbers satrting from 0 to non inclusive end . 
+
+# Loops : 
+1. while loop 
+- initialization <br> 
+  while condition : <br> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statements <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statements
