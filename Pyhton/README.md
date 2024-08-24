@@ -7,4 +7,48 @@
 ___
 > Comments by  #
 # Variables in Python : 
-The name of storage location where our data is stored  
+The name of storage location where our data is stored 
+1. String 
+2. int
+3. Float
+4. boolean : True, False 
+
+# Input values 
+- name = input("What is your name")
+- print(name)
+> In input output comes out in a string so we need type conversion for this 
+
+# Type conversion : 
+- int()
+- float()
+- str()
+- bool()
+
+# String :
+variuos methods :
+- name.upper()
+- name.lower()
+- name.find(' ') : give index 
+
+### Method 
+- in
+# Operators : 
+- / provide float value 
+- // provide int value
+- ** power opeartor 
+## Logical operators 
+- or 
+- and
+- not
+
+# if-else opeartor 
+
+if condition : 
+      statement
+      statement
+elif condition : 
+      statement
+      statement
+else : 
+      statement
+      statement
