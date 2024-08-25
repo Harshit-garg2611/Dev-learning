@@ -79,3 +79,24 @@ var_name = [item1, "item2", item3]
 3. { item in var_name }  : return true if exists else false.
 4. len(var_name) : length of list . 
 5. var_name.clear() : empty the list
+
+## Break & continue keywords 
+
+# Tuple : 
+- same as list just immutable
+- var_name = (item1, item2, "item3")
+- we can't change like that var_name[3] = xxxx
+- 'tuple' object does not support item assignment
+## Methods : 
+1. count no. of times an item come 
+- var_name.count(item)
+2. find the first index of element 
+- var_name.index(item)
+# Sets :
+- collection of unique elements 
+- var_name = {item1,item2....} 
+- > [ list ], ( tuple ), { sets }
+- sets can't be accessed by index : unordered list
+# Dictionary : 
+- key-value pair 
+- var_name = { "key1" : value1 , "key2" : value2  , "key3" : 'value3' }

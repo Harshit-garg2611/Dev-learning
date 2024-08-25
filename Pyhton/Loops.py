@@ -20,4 +20,6 @@ marks = [34,56,92,83,"Maths", "English"]
 # print(marks[-1])
 # print(marks[-3:-1])
 for score in marks :
+    if score == 92 :
+        continue
     print(score)
