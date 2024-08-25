@@ -2,6 +2,7 @@
 - Dynamic , object-oriented programming as well as functional programming .
 - case sensitive language 
 - interpreted , high level
+- portable
 
 [![](https://mermaid.ink/img/pako:eNp1UU1PwzAM_StWzlHVrZu05oZACCQKExUTh16yxmsDbTK5rlA17b-TUpVxYDnFfh928k6i9AaFEh--J4dD4SActtwgPNiOPQ3gD7AduPZuAjss2XoHj47Jm75EA_sBdjfP8PqS52_ZxAJYpJtUrZWc63tLHcMOqRvVizRdqGRGZ8_tUPMIRvGsyvRRwsE2jCThSbdGg1opCZcp6Uol0fqK0zJ6n5m3vj0S1ujG-Z2EStNeVwilb5pJpNbRn31zy2D8lwtbwv_mycV8Gceb8FiQQooWqdXWhE89jXAhuMYWC6HC1Wj6LEThzoGne_b54EqhmHqUgnxf1UIddNOFqj8azXhndUW6_e2isSGTbMrsJ7rzN9ssilY?type=png)](https://mermaid.live/edit#pako:eNp1UU1PwzAM_StWzlHVrZu05oZACCQKExUTh16yxmsDbTK5rlA17b-TUpVxYDnFfh928k6i9AaFEh--J4dD4SActtwgPNiOPQ3gD7AduPZuAjss2XoHj47Jm75EA_sBdjfP8PqS52_ZxAJYpJtUrZWc63tLHcMOqRvVizRdqGRGZ8_tUPMIRvGsyvRRwsE2jCThSbdGg1opCZcp6Uol0fqK0zJ6n5m3vj0S1ujG-Z2EStNeVwilb5pJpNbRn31zy2D8lwtbwv_mycV8Gceb8FiQQooWqdXWhE89jXAhuMYWC6HC1Wj6LEThzoGne_b54EqhmHqUgnxf1UIddNOFqj8azXhndUW6_e2isSGTbMrsJ7rzN9ssilY)
 ___
@@ -100,3 +101,14 @@ var_name = [item1, "item2", item3]
 # Dictionary : 
 - key-value pair 
 - var_name = { "key1" : value1 , "key2" : value2  , "key3" : 'value3' }
+- to access a key value : var_name["key"]
+- to insert a new key value : var_name["key"] = value 
+
+# Functions : 
+1. in-built functions 
+2. module functions : 
+- when related functions, variables stored in a single file called as module .
+- e.g. : import math , or we can write from math import * 
+3. user defined functions 
+> syntax : def function_name(parameters) : <br> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statements <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statements
