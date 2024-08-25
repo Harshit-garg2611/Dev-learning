@@ -11,5 +11,13 @@
 
 
 # for loop
-for i in range(7) :
-    print(i)
+# for i in range(7) :
+#     print(i)
+
+
+#List
+marks = [34,56,92,83,"Maths", "English"]
+# print(marks[-1])
+# print(marks[-3:-1])
+for score in marks :
+    print(score)

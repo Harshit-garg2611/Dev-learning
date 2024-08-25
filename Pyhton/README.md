@@ -68,3 +68,14 @@ else :
 > for loop used over list to iterate over it . 
 
 # Lists : 
+var_name = [item1, "item2", item3]
+- to access a particular index var_name[index] .
+- > IMP : in python we can also use negative indexing -1 means last index -2 last second index
+- To get a particular items from list we can use var_name[ starting_index:ending_index ] 
+- In above ending index does not include . 
+### Inbuilt Methods 
+1. var_name.append(item) : add in last 
+2. var_name.insert(index, item) : add at particular index
+3. { item in var_name }  : return true if exists else false.
+4. len(var_name) : length of list . 
+5. var_name.clear() : empty the list
