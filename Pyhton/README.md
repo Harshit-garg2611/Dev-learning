@@ -111,4 +111,15 @@ var_name = [item1, "item2", item3]
 - e.g. : import math , or we can write from math import * 
 3. user defined functions 
 > syntax : def function_name(parameters) : <br> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statements <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statements
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// statements <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return value
+
+# File I/O in python : 
+Python can be used to perform operations on a file (read, write). 
+## Open, Read, & close a file : 
+We have to open a file before reading or writing 
+
+```Python
+f = open("file_name", "mode") 
+```
+- file name : complete path of file 
+- mode = [r] read mode (by default), [w] write mode
