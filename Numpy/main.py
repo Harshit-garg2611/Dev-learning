@@ -1,3 +1,5 @@
+from timeit import timeit
+import timeit
 import numpy as np
 
 #print(np.version.version)  # version number
@@ -7,9 +9,20 @@ import numpy as np
 #print(np.version.release)  # True if it's a release version, False otherwise
 
 x = np.array([1,2,3,4])
-print(x)
-print(type(x))
+# print(x)
+# print(type(x))
 y = [1,2,3,4]
-print(y)
-print(type(y))
+# print(y)
+# print(type(y))
+
+
+# Numpy array v/s list
+a =   [j**4 for j in range(1,9)]
+# print(timeit.timeit('[j**4 for j in range(1,9)]'))
+print(a)
+
+b = np.arange(1,9)**4
+print(b)
+
+
 
