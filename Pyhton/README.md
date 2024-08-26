@@ -43,19 +43,20 @@ variuos methods :
 - not
 
 # if-else opeartor 
-
-if condition : 
-      statement
-      statement
-elif condition : 
-      statement
-      statement
+```python
+if #condition : 
+      #statement
+      #statement
+elif #condition : 
+      #statement
+      #statement
 else : 
-      statement
-      statement
+      #statement
+      #statement
+```
 ## Range in python
 - range(5) # 0,1,2,3,4
-- returns list of numbers satrting from 0 to non inclusive end . 
+- returns list of numbers satrting from 0 to non-inclusive end . 
 
 # Loops : 
 1. while loop 
