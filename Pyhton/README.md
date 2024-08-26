@@ -60,9 +60,12 @@ else :
 
 # Loops : 
 1. while loop 
-- initialization <br> 
-  while condition : <br> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statements <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statements
+```python
+#initialization
+while condition :
+        #statement
+        #updation
+```
 >when a number is multiplied * by a string than the string gets print that much time as same of multiplied number . 
 2. for loop 
 - for i in range(5): <br>
