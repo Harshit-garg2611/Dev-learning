@@ -75,3 +75,6 @@ np.eye(dimension)
 np.linspace(from,to,num=no. of elements)
 # from,to : range
 ```
+# [Create Numpy array with random numbers : ](./Random.py)
+1. `rand() : `
+the function is used to generate random value between 0 and 1 . 
