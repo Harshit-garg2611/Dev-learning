@@ -1,5 +1,3 @@
-from timeit import timeit
-import timeit
 import numpy as np
 
 #print(np.version.version)  # version number
@@ -10,6 +8,7 @@ import numpy as np
 
 x = np.array([1,2,3,4])
 # print(x)
+# To check type .....................
 # print(type(x))
 y = [1,2,3,4]
 # print(y)

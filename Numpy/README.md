@@ -35,7 +35,8 @@ ARRAY : [1 2 3 4]
 - Step 1 : import numpy as np 
 - Step 2 : var_name = np.array( [ list pass ] )
 
-> To check dimension of array : var_name.ndim
+- > To check dimension of array : var_name.ndim
+- > To check size (i.e. no. of elements in array ) : var_name.size 
 
 - Shortcut to create a n-d array
 
@@ -60,9 +61,10 @@ import numpy as np
 ```
 > `Note `: In empty array it occupies the memory of previous build array in the memory if left unfiled .
 
-4. Array with range of elemnts :
+4. Array with range of elements :
 ```python
 np.arange(range)
+#Build a 1-d array
 ```
 > will use reshape to make it to n-d further .
 5. identity matrix : 
@@ -78,3 +80,33 @@ np.linspace(from,to,num=no. of elements)
 # [Create Numpy array with random numbers : ](./Random.py)
 1. `rand() : `
 the function is used to generate random value between 0 and 1 . 
+```python
+var_name = np.random.rand(number of elements)
+# It generates the 1-d array of random value between 0 & 1 of number of elements provided .
+```
+- To generate a random array of n dimension just pass rows and coloumns in place of number of elements
+```python
+var_name = np.random.rand(rows,col)
+```
+
+2. `randn() : ` the function is used to generate random value close to zero . This may return possitive or negative value as well.
+`Syntax similiar`
+
+
+3. `ranf : ` This function do random sampling of numpy . It returns an array of specified shape and fills it with random floats in the half open interval ` [0.0, 1.0) `
+
+
+4. `randint() : ` The function is used to genrate a random integer number between a given range .
+```python
+var_name = np.random.randint(min, max, total_elements)
+```
+> To check data type of element or numpy array : var_name.dtype
+
+### To convert datatypes : 
+```python
+var = np.array([1,2,3,4])
+new_1 = var.astype( float )
+print( new_1.dtype )
+```
+
+# Arithmetic operations :
