@@ -112,3 +112,24 @@ print( new_1.dtype )
 ### [Arithmetic operations](./Arithmetic_opeartors.py)
 
 ### [Arithmetic functions](./Arithmetic_functions.py) 
+
+# Shape & Reshaping in numpy 
+- [Shaping](./Shape.py)&nbsp;&nbsp;&nbsp;**&nbsp;imp
+```python
+var.shape
+```
+- [Reshaping](Reshaping.py)
+```python
+var.reshape(rows,col)
+```
+> To convert n-dim in 1-d array : 
+```python
+var.reshape(-1)
+```
+## [Broadcasting in NumPy :](./Broadcasting.py)
+If we try to perform arithmetic operations on numpy array than if dimensions are different in them than it throws broadcasting error . 
+> But if there is one dimension (i.e. 1 )common seeing from r.h.s in any of two operands than it can perform arithmetic operations . 
+> Condition : r.h.s dimension should be one of anyone operand & l.h.s dimension should be same  
+
+# Indexing & Slicing : 
+
