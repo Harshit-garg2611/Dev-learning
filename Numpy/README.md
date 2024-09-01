@@ -109,4 +109,6 @@ new_1 = var.astype( float )
 print( new_1.dtype )
 ```
 
-# Arithmetic operations :
+### [Arithmetic operations](./Arithmetic_opeartors.py)
+
+### [Arithmetic functions](./Arithmetic_functions.py) 
