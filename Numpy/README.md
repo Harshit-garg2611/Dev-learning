@@ -1,3 +1,5 @@
+from numpy.f2py.crackfortran import dimensionpattern
+
 # Numpy :
 - fundamental package for scientific computing in python .
 - python library that provide multidimensional array objects 
@@ -132,4 +134,45 @@ If we try to perform arithmetic operations on numpy array than if dimensions are
 > Condition : r.h.s dimension should be one of anyone operand & l.h.s dimension should be same  
 
 # Indexing & Slicing : 
+
+### Indexing : 
+- Access element through index 1-d : var[ index ] . 
+- Access element through index 2-d : var[ row, col ] . 
+- Access element through index 3-d : var[ row, row, col ] .
+
+### [Slicing of array :](./Slicing.py)
+```python
+var_name[start_index : end_index : step]
+# Non-inclusive end 
+# if want a slicing till end than don't need to give end index
+# By default step is 1
+# In 2-d array first pass row number than slicing same .
+```
+# [Iterating NumPy Array :](./Iteration.py) 
+- simple loops and nested loops
+- Function to iterate : `np.nditer(var)`
+```python
+# variable can be of any dimension
+var = np.array([[[[1,2,3,4],[1.2,27,29]]]])
+for i in np.nditer(var) :
+         print(i)
+```
+- to get indexing along with value we use `ndneumerate()` function . 
+```python
+for i,j in np.ndenumerate(var2) :
+    print(i,j)
+```
+
+## [Copy v/s View :](./Copy_View.py)
+
+| Copy                                                         | View                                                                                                        |
+|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Copy Owns the data                                           | View does not own the data                                                                                  |
+| Copy of array is a new array                                 | Ony view of original array                                                                                  |
+| The changes made in copy data does not reflect in main array | any changes made to view array reflect in original array & changes made in original array reflects in view  |
+
+
+
+## Join & Split 
+
 
