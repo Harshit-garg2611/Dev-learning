@@ -1,4 +1,4 @@
-from numpy.f2py.crackfortran import dimensionpattern
+from numpy.ma.extras import dstackfrom numpy.ma.extras import dstackfrom numpy.ma.extras import hstackfrom numpy.f2py.crackfortran import dimensionpattern
 
 # Numpy :
 - fundamental package for scientific computing in python .
@@ -175,4 +175,33 @@ for i,j in np.ndenumerate(var2) :
 
 ## Join & Split 
 
+### [JOIN](./Join.py) : 
+Joining means putting content of two or more array in a single array
 
+```python
+import numpy as np
+# 1-d array
+np.concatenate((var1, var2))
+
+# in 2-d array : 
+# axis-0 = y-axis
+# axis-1 = x-axis
+
+# in 3-d array : 
+# axis-0 : y axis
+# axis-1 : x-axis
+# axis-2 : z-axis
+
+np.concatenate((var1, var2), axis=?)
+```
+- there is also a stack function through which we can merge our arrays . 
+```python
+import numpy as np 
+# we can do dimensionally merge through this method 
+#  Through 3 types : horizontally , vertically, along height
+axis = 0 : vstack (dimension change)
+hstack : horizontally
+dstack : alonh column
+
+```
+### Split : 
