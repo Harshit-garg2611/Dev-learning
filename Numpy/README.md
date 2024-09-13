@@ -1,5 +1,3 @@
-from numpy.ma.extras import dstackfrom numpy.ma.extras import dstackfrom numpy.ma.extras import hstackfrom numpy.f2py.crackfortran import dimensionpattern
-
 # Numpy :
 - fundamental package for scientific computing in python .
 - python library that provide multidimensional array objects 
@@ -204,4 +202,18 @@ hstack : horizontally
 dstack : alonh column
 
 ```
-### Split : 
+### [Split :](./split.py) 
+```python
+import numpy as np 
+
+var = np.array([list])
+
+split_arr = np.split(var, n)
+split_arr2 = np.array_split(var, n)
+```
+> Here n is the no. of times you want to split the given array
+> type(split_arr) : list
+
+# [Numpy array Functions :](./functions.py) 
+
+

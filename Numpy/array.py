@@ -1,20 +1,18 @@
-from traceback import print_tb
-
 import numpy as np
 
-# x = [1,2,3,4,5]
+x = [1,2,3,4,5]
 
-# y = np.array(x)
+y = np.array(x)
 # print(y)
 
 
 # input numbers from user and convert it to array
 #Creation of 1-d array
-# l = []
-# for i in range(1,5) :
-#     data = int(input("Enter number"))
-#     l.append(data)
-# y = np.array(l)
+l = []
+for i in range(1,5) :
+    data = int(input("Enter number"))
+    l.append(data)
+y = np.array(l)
 # print("created array is : " , y)
 # print(y.ndim)
 
