@@ -215,5 +215,101 @@ split_arr2 = np.array_split(var, n)
 > type(split_arr) : list
 
 # [Numpy array Functions :](./functions.py) 
+1. Search array : return index of particular value 
+```python
+x = np.where(var==2)
+# It provides array in list where this value 2 found on index also provide dtype in list 
+```
+2. Search sorted array : do binary search and return the index where the provided value be placed in that array 
+```python
+x1 = np.searchsorted(var1,3)
+# we can also provide list 
+# result is array 
+```
+3. Sort array : we can sort numeric or alphabetic 
+```python
+var2 = np.sort(var)
+```
+4. Filter array : getting some element out of an existing array and a creating a new array out of them . 
+```python
+f = [True, False,false, True, False]
+filter = var[f]
+# F should have same no. of elements as in var
+```
+5. Shuffle : 
+```python
+np.random.shuffle(var)
+# this function does not return anything so no operator 
+```
+6. Unique : 
+```python
+print(np.unique(var))
+# It automatically sort the array 
+#  To get index & count
+np.unique(var, return_index=True, return_counts=True)
+```
+7. resize : 
+```python
+np.resize(var, (rows,col))
+```
+8. Flatten & Ravel : these function convert 2-d array into 1-d
 
+```python
+import numpy as np
 
+var.flatten(order="F")
+np.ravel(var,order="A")
+```
+- By default : Order C 
+- C = row wise than col 
+- F = col. wise 
+- A 
+- K = order-wise present in memory 
+
+## [Insert & Delete](./manipulate.py) : 
+1. Insert
+```python
+np.insert(var,index,value)
+
+# can pass multiple index inside braces and multiple values as list
+
+np.insert(var , (indx_1 , indx_2) , [val_1 , val_2] )
+
+# we can also perform this in 2-d array we have to pass axis for it 
+```
+> - The insert function convert float value into int 
+> - We can also use append function to insert on last . 
+
+2. Delete : 
+```python
+np.delete(var, index)
+```
+# [Concept of matrix :](./matrix.py) 
+There is a slight difference b/w 2-d array and matrix in operations . 
+```python
+np.matrix([[1,2,3],[1,2,3]])
+```
+### Arithmetic Operations : 
+In product array perform simple product but in matrix it performs dot product . 
+## Matrix Functions : 
+1. Transpose 
+```python
+# Transpose
+print(np.transpose(var_matrix))
+or ....
+print(var_matrix.T)
+```
+> - Swap axes similiar
+2. Inverse : 
+```python
+print(np.linalg.inv(var_matrix))
+```
+3. Power
+```python
+np.linalg.matrix_power(var,n)
+```
+> Conditions : 
+> - if n=0 : Identity matrix 
+> - if n>0 : calculate power 
+> - if n<0 : inverse * power
+4. Determinant : 
