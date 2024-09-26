@@ -161,3 +161,36 @@ df.groupby(["col1", "col2", "col3"]).agg({"count emp Id ": "count function"})
 ```
 
 # [Merge, Join & Concatenate :](./merge_join_concat.py) 
+```python
+data1 = {"Emp_Id" : ["E101","E102", "E103", "E104", "E105"],
+         "Name" : ["Harshit", "Murari", "Alok", "Garvit", "Aayush"]}
+data2 = {"Emp_Id" : ["E101","E102", "E103", "E104", "E105"],
+         "Salary" : [74000,56000,23000,50000,42500],
+         "City": ["Panipat", "Darbanga", "Muzzafarpur", "Gurugram", "Kaithal"]}
+
+df1 = pd.DataFrame(data1)
+df2 = pd.DataFrame(data2)
+
+# print(df1)
+# print()
+# print(df2)
+
+# Merge,,,,,,,,,,,,,,,,,,,
+print(pd.merge(df1,df2,on="Emp_Id"))
+# Here how = "inner" : default 
+# It merge only common values 
+```
+## [Compare : ](./compare.py)
+```python
+df2 = df1.copy()
+df2.loc[0,"Price"] = 65
+df2.loc[1,"Price"] = 100
+df2.loc[2,"Price"] = 65
+df2.loc[3,"Price"] = 30
+df2.loc[2,"Quantity"] = 80
+
+# If there is no change in any of the key than it does not shows , and if there is a change in only one column than it shows nan to other
+print(df1.compare(df2))
+
+# Attribute keep_shape = true , than shows all rows 
+```
