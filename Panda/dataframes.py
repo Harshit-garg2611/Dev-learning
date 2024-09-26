@@ -11,7 +11,7 @@ data = {
 # load data into dataframes
 
 df = pd.DataFrame(data)
+# print(df)
 # print(df.loc[[0,1]])
-
 df_var = pd.DataFrame(data, index = ("x", "y", "z"))
-print(df_var.loc[["y"]])
+# print(df_var.loc[["y"]])

@@ -4,7 +4,7 @@ import pandas as pd
 a = [1,3,4,6]
 myVar = pd.Series(a)
 # print(myVar)
-# print(myVar[4])     : value error
+# print(myVar[2])      #value error
 
 
 # Create labels :............................................

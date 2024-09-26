@@ -1,7 +1,9 @@
 import pandas as pd
 
-df = pd.read_csv('C:/Users/hgarg/Downloads/currency.csv')
+# df = pd.read_csv('./currency.csv')
 # print(df)
+
+df = pd.read_excel('./SampleData.xlsx')
 
 # To read entire data
 # print(df.to_string())

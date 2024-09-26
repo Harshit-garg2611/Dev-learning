@@ -105,4 +105,40 @@ print(df.isnull())
 print(df.isnull().sum())
 ```
 
-### Cleaning of data : 
+### [Cleaning of data :](./cleaning.py) 
+1. Duplicate values : 
+```python
+print(df.duplicated())
+#  row wise duplicated data 
+#  tO check A duplicate value in a column 
+print(df["col"].duplicated())
+# .sum tells no. of duplicated value 
+```
+2. Drop duplicates : 
+```python
+# drop duplicates from a particular column
+print(df.drop_duplicates("Primary key column"))
+```
+3. [Missing data :](./missing.py) 
+
+```python
+# Delete all null values rows from data 
+print(df.dropna())
+```
+```python
+# To replace all nan values with some value
+no_null = df.replace(np.nan, 0)
+print(no_null.isnull().sum())
+```
+```python
+#  To replace nan values of a particular column with some value 
+# to replace nan value of only salary with 0
+df["salary"] = df["salary"].replace(np.nan, 30000)
+print(df.to_string())
+```
+```python
+# forward fill 
+# Backward fill 
+print(df.fillna(method = "bfill/ffill"))
+```
+## [Column Transformation in pandas :](./column_transform.py) 
