@@ -142,3 +142,22 @@ print(df.to_string())
 print(df.fillna(method = "bfill/ffill"))
 ```
 ## [Column Transformation in pandas :](./column_transform.py) 
+To create a new column out of existing one to analyze or manipulate the data 
+```python
+# To extract a short value of word by using map 
+
+def extract(value) : 
+     return value[0:3] 
+
+data["new col"] = data["old col"].map(extract) 
+
+```
+
+# [Group By :](./Group_by.py) 
+```python
+df.groupby(["col1", "col2", "col3"]).agg({"count emp Id ": "count function"})
+# First argument array 
+# aggregate argument dictionary
+```
+
+# [Merge, Join & Concatenate :](./merge_join_concat.py) 
