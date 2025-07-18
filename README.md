@@ -22,9 +22,6 @@ This repository is a living document of my journey in software development. By m
 ### Additional Technologies
 - **Frontend**: HTML, CSS, JavaScript, TypeScript, Redux
 - **Backend**: REST APIs, GraphQL, SQL databases
-- **DevOps**: Docker, Kubernetes, CI/CD
-- **App Development**: React Native, Flutter
-- **Blockchain & Web3**: Ethereum, Solidity, Smart Contracts, DApps
 
 ---
 
