@@ -1,18 +1,18 @@
-first_name = "Harshit"
-last_name  = "Garg"
-age = 21
-is_genius = "genius"
-# print(first_name +" " +last_name +" is", age, "years old and is a fucking " +is_genius)
+# print("Hello World !")
 
-# input
-name = input(" What is your name ? ")
-print(name)
+# # name = input("Enter name : ")
+# # print(name)
 
-# type conversion
-first = input("First number : ")
-second = input("First number : ")
-sum = int(first) +  int(second)
-print(sum)
+# n1 = input("No. 1: ")
+# n2 = input("No. 1: ")
 
-#in method
-print('H' in first_name)
+# n3 = int(n1) + int(n2)
+
+# print("Sum is : ", n3)
+
+
+# Love = "Myself"
+# print("K" in Love)
+
+
+
